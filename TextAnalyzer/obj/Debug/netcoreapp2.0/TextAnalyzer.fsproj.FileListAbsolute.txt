@@ -1,0 +1,8 @@
+C:\Users\jimmy\source\repos\TextAnalyzer\TextAnalyzer\bin\Debug\netcoreapp2.0\TextAnalyzer.deps.json
+C:\Users\jimmy\source\repos\TextAnalyzer\TextAnalyzer\bin\Debug\netcoreapp2.0\TextAnalyzer.runtimeconfig.json
+C:\Users\jimmy\source\repos\TextAnalyzer\TextAnalyzer\bin\Debug\netcoreapp2.0\TextAnalyzer.runtimeconfig.dev.json
+C:\Users\jimmy\source\repos\TextAnalyzer\TextAnalyzer\bin\Debug\netcoreapp2.0\TextAnalyzer.dll
+C:\Users\jimmy\source\repos\TextAnalyzer\TextAnalyzer\bin\Debug\netcoreapp2.0\TextAnalyzer.pdb
+C:\Users\jimmy\source\repos\TextAnalyzer\TextAnalyzer\obj\Debug\netcoreapp2.0\TextAnalyzer.fsprojResolveAssemblyReference.cache
+C:\Users\jimmy\source\repos\TextAnalyzer\TextAnalyzer\obj\Debug\netcoreapp2.0\TextAnalyzer.dll
+C:\Users\jimmy\source\repos\TextAnalyzer\TextAnalyzer\obj\Debug\netcoreapp2.0\TextAnalyzer.pdb
