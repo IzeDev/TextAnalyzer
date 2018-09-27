@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "FSharp.Core/4.3.4": {
+      "FSharp.Core/4.5.2": {
         "type": "package",
         "compile": {
           "lib/netstandard1.6/FSharp.Core.dll": {}
@@ -253,31 +253,19 @@
     }
   },
   "libraries": {
-    "FSharp.Core/4.3.4": {
-      "sha512": "u2UeaUl1pt/Lktdpzq3AsaRmOV1mOiQaSbZgYqQQYuqBSjnILWemetff4xMZIAZi0241jlIkcrJQsU5PlLwIJA==",
+    "FSharp.Core/4.5.2": {
+      "sha512": "mQlCpyv/wNZAihLBUbBu8gS4NpXpBCTw/eMQqujn8sGBukxSYH3CoE0vPABACNQEv7HoAX7CJt5q7l6Yb2E2hg==",
       "type": "package",
-      "path": "fsharp.core/4.3.4",
+      "path": "fsharp.core/4.5.2",
       "files": [
-        "fsharp.core.4.3.4.nupkg.sha512",
+        ".signature.p7s",
+        "fsharp.core.4.5.2.nupkg.sha512",
         "fsharp.core.nuspec",
         "lib/net45/FSharp.Core.dll",
         "lib/net45/FSharp.Core.optdata",
+        "lib/net45/FSharp.Core.resources.dll",
         "lib/net45/FSharp.Core.sigdata",
         "lib/net45/FSharp.Core.xml",
-        "lib/net45/UnitTests/MockTypeProviders/cs/FSharp.Core.resources.dll",
-        "lib/net45/UnitTests/MockTypeProviders/de/FSharp.Core.resources.dll",
-        "lib/net45/UnitTests/MockTypeProviders/en/FSharp.Core.resources.dll",
-        "lib/net45/UnitTests/MockTypeProviders/es/FSharp.Core.resources.dll",
-        "lib/net45/UnitTests/MockTypeProviders/fr/FSharp.Core.resources.dll",
-        "lib/net45/UnitTests/MockTypeProviders/it/FSharp.Core.resources.dll",
-        "lib/net45/UnitTests/MockTypeProviders/ja/FSharp.Core.resources.dll",
-        "lib/net45/UnitTests/MockTypeProviders/ko/FSharp.Core.resources.dll",
-        "lib/net45/UnitTests/MockTypeProviders/pl/FSharp.Core.resources.dll",
-        "lib/net45/UnitTests/MockTypeProviders/pt-BR/FSharp.Core.resources.dll",
-        "lib/net45/UnitTests/MockTypeProviders/ru/FSharp.Core.resources.dll",
-        "lib/net45/UnitTests/MockTypeProviders/tr/FSharp.Core.resources.dll",
-        "lib/net45/UnitTests/MockTypeProviders/zh-Hans/FSharp.Core.resources.dll",
-        "lib/net45/UnitTests/MockTypeProviders/zh-Hant/FSharp.Core.resources.dll",
         "lib/net45/cs/FSharp.Core.resources.dll",
         "lib/net45/de/FSharp.Core.resources.dll",
         "lib/net45/en/FSharp.Core.resources.dll",
@@ -772,32 +760,29 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "FSharp.Core >= 4.3.*",
+      "FSharp.Core >= 4.5.2",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
   "packageFolders": {
     "C:\\Users\\jimmy\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\jimmy\\source\\repos\\TextAnalyzer\\TextAnalyzer\\TextAnalyzer.fsproj",
+      "projectUniqueName": "C:\\Users\\jimmy\\source\\repos\\TextAnalyzer\\TextAnalyzer\\TextAnalyzer.fsproj",
       "projectName": "TextAnalyzer",
-      "projectPath": "c:\\Users\\jimmy\\source\\repos\\TextAnalyzer\\TextAnalyzer\\TextAnalyzer.fsproj",
+      "projectPath": "C:\\Users\\jimmy\\source\\repos\\TextAnalyzer\\TextAnalyzer\\TextAnalyzer.fsproj",
       "packagesPath": "C:\\Users\\jimmy\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\jimmy\\source\\repos\\TextAnalyzer\\TextAnalyzer\\obj\\",
+      "outputPath": "C:\\Users\\jimmy\\source\\repos\\TextAnalyzer\\TextAnalyzer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\jimmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -817,7 +802,7 @@
         "dependencies": {
           "FSharp.Core": {
             "target": "Package",
-            "version": "[4.3.*, )"
+            "version": "[4.5.2, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
