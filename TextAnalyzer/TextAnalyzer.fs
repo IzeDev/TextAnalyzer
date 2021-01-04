@@ -9,3 +9,4 @@ namespace TextAnalyzer
 
     module Main =
         let doSomething x = x * x
+        
